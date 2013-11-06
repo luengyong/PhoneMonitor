@@ -19,7 +19,7 @@ import android.util.Log;
 import com.feiyu.entity.SMSEntity;
 import com.feiyu.phonemonitor.R;
 
-public class SMSController 
+public class Controller 
 {
 	//private Activity mActivity;
 	
@@ -28,7 +28,7 @@ public class SMSController
 	
 	private Context mContext;
 	
-	public SMSController(Context context){
+	public Controller(Context context){
 		this.mContext = context;
 	}
 	

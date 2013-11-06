@@ -1,6 +1,5 @@
 package com.feiyu.entity;
 
-import android.graphics.drawable.Drawable;
 
 public class SMSEntity
 {

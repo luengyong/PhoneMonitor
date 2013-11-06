@@ -1,4 +1,4 @@
-package com.feiyu.phonemonitor;
+package com.feiyu.gui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,15 +11,16 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.feiyu.controller.SMSController;
+import com.feiyu.controller.Controller;
 import com.feiyu.notification.NotificationExtend;
+import com.feiyu.phonemonitor.R;
 
 public class MainActivity extends Activity
 {
 	private Button start;
 	private NotificationExtend notification;
 	
-	private SMSController smsController;
+	private Controller smsController;
 
 	private Handler handler = new Handler(){
 		public void handleMessage(Message msg){
@@ -41,7 +42,7 @@ public class MainActivity extends Activity
 		notification = new NotificationExtend(this);
 		final Intent intent = new Intent();
 		intent.setAction("com.feiyu.service.FIRST_SERVICE");
-		smsController = new SMSController(this);
+		smsController = new Controller(this);
 		
 		start.setOnClickListener(new OnClickListener(){
 
