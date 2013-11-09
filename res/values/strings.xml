@@ -5,4 +5,42 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <!-- 资料填写页面 -->
+    <string name="info">填写资料</string>
+    <string name="phone_number">输入手机号码</string>
+    <string name="certif">输入认证密码</string>
+    <string name="re_certif">再次确认认证密码</string>
+
+    <!-- 页面 -->
+    <string name="applock">应用锁</string>
+    <string name="mode_setting">模式设置</string>
+    <string name="controll">家长控制</string>
+    <string name="class_mode">上课模式</string>
+    <string name="sleep_mode">睡眠模式</string>
+    <string name="safe_mode">安全模式</string>
+    
+    <!-- 模式简介 -->
+    <string name="class_mode_info">开启上课模式，会让你手机在设定的时间内，锁定指定应用，默认电话、短信等基本功能可用，让您的孩子安心学习</string>
+    <string name="sleep_mode_info">开启睡眠模式，会让你手机在设定的时间内，锁定指定应用，默认电话、短信等基本功能可用，让您的孩子安心睡眠</string>
+    <string name="safe_mode_info">安全模式</string>
+    
+    <!-- 应用锁界面 -->
+    <string name="apps">所有应用</string>
+    <string name="lock">限制应用</string>
+    
+    <!-- 上课模式 -->
+    <string name="week">请选择每周限制范围</string>
+    <string name="am">请选择上午时间段</string>
+    <string name="pm">请选择下午时间段</string>
+    <string name="evening">请选择晚上时间段</string>
+    <string name="noon">请选择中午时间段</string>
+    <string name="night">请选择晚上时间段</string>
+    <string name="to">至</string>
+    <string name="Monday">周一</string>
+    <string name="Tuesday">周二</string>
+    <string name="Wednesday">周三</string>
+    <string name="Thursday">周四</string>
+    <string name="Friday">周五</string>
+    <string name="Saturday">周六</string>
+    <string name="Sunday">周日</string>
 </resources>
